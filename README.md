@@ -1,6 +1,7 @@
 # File Name Proposal For Model Files
 
-C_Haines_BC_South-MODEL-YYYYMMDDHHZ_YYYYMMMDD18PDT
+Nomenclature:
+C_Haines_BC_South-MODEL-YYYYMMDDHHZ_YYYYMMMDD18PDT.png
 
 - **C_Haines** : constant string indicating that this image contains Lower Atmosphere Severity Index information.
 - **BC_South** : constant string indicating the area, Southern British Columbia, that this image relates to.
@@ -10,8 +11,11 @@ C_Haines_BC_South-MODEL-YYYYMMDDHHZ_YYYYMMMDD18PDT
 - **YYYYMMDDHHPDT** : Year, month, day and hour in Pacific Daylight Time of the forecast. For GDPS this extends to 5 days (120 hours) from the model run start. For RDPS this extends to 2 days (48 hours) from the model run start.
 - **HHPDT** : Forecast hour in pacific daylight time. Forecast hour increments in one hour segments. The hours extend
 
+Example of file name: C_Haines_BC_South-GDPS-2020040600Z_2020040618PDT.png
+
 ## Changes:
 
 ### 2020 04 09
+
 - Dropped T, i.e. 'C_Haines_BC_South-GDPS-20200406T00...' becomes 'C_Haines_BC_South-GDPS-2020040600...'
 - Dropped minutes from forecast time, i.e. 'C_Haines_BC_South-GDPS-2020040600Z_202004061800PDT...' becomes 'C_Haines_BC_South-GDPS-2020040600Z_2020040618PDT'
