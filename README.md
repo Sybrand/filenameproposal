@@ -17,6 +17,6 @@ Example of file name: C_Haines_BC_South_2020040600Z_2020040618PDT_GDPS.png
 
 ### 2020 04 09
 
-- Dropped T, i.e. 'C_Haines_BC_South-GDPS-20200406T00...' becomes 'C_Haines_BC_South-GDPS-2020040600...'
-- Dropped minutes from forecast time, i.e. 'C_Haines_BC_South-GDPS-2020040600Z_202004061800PDT...' becomes 'C_Haines_BC_South-GDPS-2020040600Z_2020040618PDT'
-- Put the model at the end.
+- Dropped T, e.g. 'C_Haines_BC_South-GDPS-20200406T00...' becomes 'C_Haines_BC_South-GDPS-2020040600...'
+- Dropped minutes from forecast time, e.g. 'C_Haines_BC_South-GDPS-2020040600Z_202004061800PDT...' becomes 'C_Haines_BC_South-GDPS-2020040600Z_2020040618PDT'
+- Put the model at the end, e.g. 'C_Haines_BC_South-GDPS-2020040600Z_2020040618PDT' beomes 'C_Haines_BC_South_2020040600Z_2020040618PDT_GDPS'
